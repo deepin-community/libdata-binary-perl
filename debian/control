@@ -1,0 +1,25 @@
+Source: libdata-binary-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: perl
+Standards-Version: 4.3.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdata-binary-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdata-binary-perl.git
+Homepage: https://metacpan.org/release/Data-Binary
+
+Package: libdata-binary-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: module for detection of binary versus text in strings
+ The Data::Binary module provides string equivalents to the -T / -B operators.
+ Since these only work on file names and file handles, this module provides
+ the same functions but on strings.
+ .
+ Note that the actual implementation is currently different, basically because
+ the -T / -B functions are in C/XS, and this module is written in pure Perl.
+ For now, anyway.

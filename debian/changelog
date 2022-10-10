@@ -1,0 +1,12 @@
+libdata-binary-perl (0.01-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:12:55 +0100
+
+libdata-binary-perl (0.01-1) unstable; urgency=medium
+
+  * Initial release (closes: #919698).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 18 Jan 2019 18:42:56 +0100
